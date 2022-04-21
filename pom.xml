@@ -37,7 +37,6 @@
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
       <version>${jupiter.version}</version>
-      <scope>test</scope>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
     <dependency>
@@ -45,6 +44,12 @@
       <artifactId>junit-jupiter-params</artifactId>
       <version>${jupiter.version}</version>
       <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/ru.yandex.qatools.htmlelements/htmlelements-matchers -->
+    <dependency>
+      <groupId>ru.yandex.qatools.htmlelements</groupId>
+      <artifactId>htmlelements-matchers</artifactId>
+      <version>1.20.0</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
     <dependency>
